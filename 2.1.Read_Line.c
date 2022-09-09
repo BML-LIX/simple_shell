@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 /**
@@ -13,7 +14,7 @@ int main(void)
 	{
 		printf("$ ");
 		getline(&buffer, &length, stdin);
-		prinf("%s", buffer);
+		printf("%s", buffer);
 	}
 	return (0);
 }
